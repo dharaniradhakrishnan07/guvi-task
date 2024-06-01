@@ -1,0 +1,63 @@
+   Blog on Difference between HTTP1.1 vs HTTP2
+
+What is HTTP?
+
+  HTTP stands for hypertext transfer protocol, and it is tshe basis for almost all web applications.
+More specificallu, HTTP is the method computers and servers use to request and send information.
+For instancse, dwhen someone navigates to xxxx.com on their laptop, their web browser
+sends an HTTP request to the xxxx servers for the content that appears on the page. then,
+xxxx servers send HTTP responsess with the text,image and formatting thar the browser
+displays to the user. 
+    
+What is HTTP 1.1?
+
+ The first usable version of HTTP was created in 1997. Because it went through
+ several stages of developmet, this first version of HTTP was called HTTP 1.1 
+ this version is still in use on the web.
+ 
+ What is HTTP2?
+
+  In 2015, a new version of HTTP called HTTP2 was created. HTTP2 solves several problems that
+  the creators of HTTP1.1 did nt anticipate. In particular, HTTP2 is much faster and more efficient 
+  than HTTP1.1. One of the ways in which HTTP2 is faster is iln how it prioritizes content during 
+  the loadilng process
+
+  What is prioritization?
+
+    In the content of web performance, prioritization referws to the order in which pieces of content
+  are loaded. Suppose a user visits a news website and navigates to an article. Should the photo at the 
+  top of the article load first? Should the text of the article load first? Should the banner ads load
+first?
+  prioritization affects a webpage's load time. For example, certain resources like large JavaScript
+  file may block the rest of the page from loading if they have to load first. More of the page can 
+  load at once if these render-blocking resources load last.
+  
+  How does prioritization in HTTP2 affect performance?
+     In HTTP/2, developers have hands-on, detailed control over prioritization. This allows them to maximize 
+  perceived and actual page load speed to a degree that was not possible in HTTP/1.1.HTTP/2 offers a 
+  feature called weighted prioritization. This allows developers to decide which page resources will load first,
+  every time. In HTTP/2, when a client makes a request for a webpage, the server sends several streams of data 
+  to the client at once, instead of sending one thing after another. This method of data delivery is known 
+  as multiplexing. Developers can assign each of these data streams a different weighted value, and the value 
+  tells the client which data stream to render first.
+    Imagine that Alice wants to read a novel that her friend Bob wrote, but both Alice and Bob only communicate 
+  through the regular mail. Alice sends a letter to Bob and asks Bob to send her his novel. Bob decides to send 
+  the novel HTTP/1.1-style: He mails one chapter at a time, and he only mails the next chapter after receiving
+  a reply letter from Alice confirming that she received the previous chapter. Using this method of content delivery,
+  it takes Alice many weeks to read Bob's novel.
+    Now imagine that Bob decides to send Alice his novel HTTP/2-style: In this case, he sends each chapter of the
+  novel separately (to stay within the postal service's size limits) but all at the same time. He also numbers
+  each chapter: Chapter 1, Chapter 2, etc. Now, Alice receives the novel all at once and can assemble it in 
+  the correct order on her own time. If a chapter is missing, she may send a quick reply asking for that
+  specific chapter, but otherwise the process is complete, and Alice can read the novel in just a few days.
+    In HTTP/2, data is sent all at once, much like Bob when he sends Alice multiple chapters at once. 
+  And just like Bob, developers get to number the chapters in HTTP/2. They can decide if the text of a webpage 
+  loads first, or the CSS files, or the JavaScript, or whatever they feel is most important for the user experience.
+
+Difference between HTTP1.1 and HTTP2:
+
+    HTTP1.1 works on the textual format wheras HTTP2 works on the binary protocol.  In HTTP1 there is head of 
+  line blocking that blocks all the requests behind it until it doesn't get its all resources. HTTP2 allows
+  multiplexing soo ones TCP connection is required for multiple requests. HTTP1 uses requests inlining for
+  use getting multiple pages. In HTTP2 PUSH frame by server that collects all multliple pages.
+  HTTP1 compresses data by itself. In HTTP2 HPACK for data compression.
