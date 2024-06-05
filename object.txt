@@ -1,0 +1,37 @@
+  Blog about objects and its internal representation in JavaScript
+
+   objects are important data types in JavaScript. objects are different than primitive datatypes
+ (i.e. number,string,boolean,etc.). primitive datatypes contain one value but objects can hold
+ many values in the form  key: value pair. These keys can be variables or funtions and are called 
+ properties and methods, respectivelu, in te context of an object. objects, in JavaScript, is it's
+ most important data-type and forms the building blocks for modern JavaScript. These objects are quite
+ different from JavaScript's primitive data-type in the sense that while these primitive data-types all
+ store a single value each(depending on their types).
+    object are more complex and each object may contain any combination of these primitive data-type 
+ as well as reference data-types. An object, is a reference datatype. variables that are assigned a 
+ reference value are given a reference or pointer t that value. That reference or pointer points to the
+ location in memory where the object ils stored. The variables don't actually store the value.
+
+    objects and properties
+   A JavaScript object has properties associated with it. A property of an object can be explained as a 
+ variable that is attached to the object. object properties are basically the same as ordinaary JavaScript
+ variables, except for the attachment to objects. The properties of an object define the characteristics of
+ the object. You access the properties of an object with a simple dot-notation:
+         objectname.propertyname
+
+    Understanding objects in JavaScript
+   In JavaScript, objects are collections of key-value pairs, where keys are strings and values can be of 
+ any data type, including other objects. objects are used to reperesent real world entities, data structures,
+ and more complex datatypes.
+
+    internal representation of objects
+ Internally, JavaScript engines use various data structures to reperesent objects efficiently. One common
+ approach is using a hash table or a similar structure to store the objects properties and their corresponding
+ values. This allows for fast access and manipulation of properties.
+      Internal Representation:
+      {
+        name: "muthukumar S",
+        age: 22,
+        email:muthukumarsaravanan@gmail.com
+      }
+      object.txt
