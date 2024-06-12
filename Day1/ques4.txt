@@ -1,0 +1,41 @@
+    IP address
+ IP stands for Internet protocol, IP address is unique identifying number assigned 
+ to every device connected to the internet. it is a numeric lable assigned to devices
+ that use the internet to communicate.
+  it have two distinct versions that is internet protocol version 4 and internet protocol version 6,
+ called as IPv4 and IPv6. the ip address maybe private,public,static and dynamic ip address
+ every device with a internet connection has an IP address whether it's a computer,laptop,
+ IoT device or even toys
+
+    port
+  Port is a number assigned to uniquely identify a cdonnecdtin endpoint and t direct data to specific
+  service.
+  A port is logical construct that idetifies a specific process or a type of network service.
+  A port at the software level is identified a specific transport protocol and address combination
+  by the port number assigned to it.
+  The most common transport protocols that use port numbers areTCP (Transmission Control Protocol)
+  and the UDP (User Datagram Protocol) the port numbers are 16-bit
+  unsigned numbers.
+
+    HTTP methods
+  HTTP methods are used to indicate the action and API client would like to perform on a given resource.
+  Each HTTP method maps to a specific operation like creating, reading, updating or deleting a resource.
+  HTTP request method
+   1. get - retriving a single or multiple resources
+   2. post - creating a new resource
+   3. patch - updating an existing resource
+   4. put - updating or creating new resource
+   5. delete - destroying a resource
+
+     MAC address
+   MAC address which stands for Media Access Control Address is a physical address that works at the 
+  Data link layer.
+  MAC Address are unique 48-bit hardware numbers of a computer that are embedded into a network card.
+  MAC Address is a 12-digit hexadeciaml number which is mostly represented by Colon-Hexadeciaml notation.
+  The first 6 digits of the MAC Address identify the manufacturer called the OUI(organizational unique
+  identifier).
+  The rightmost six digits represent Network Interface Controller
+   Types of MAC Address
+    1.Unicast
+    2.Multicast
+    3.Broadcast
