@@ -1,0 +1,27 @@
+Difference between Document and Window objects
+
+Document objects
+ The Document object represents a web page that is loaded in the browser. By accessing the
+ Document object, we can access the element in the HTML page. we can add dynamic content
+ to the web page.
+ syntax
+    document.property_name;
+ properties of document:
+ i) activeElement: it returns the currently active elements in the document.
+ ii)body: it returns the content of the body element.
+ iii)baseURI: it returns a string value that represents the base URI of the document.
+ iv)cookie: it returns the cookie of the current document.
+ v) charSet: it returns a string, representing the document's character encoding.
+
+Window object
+ The Window object is the topmost object of the DOM hierarchy. it represents a browser 
+ Window or frame that displays the contents of the webpage. whenever a Window appears on 
+ the screen to display the contents of the document, the wiindow object is created.
+ syntax:
+    Window.property_name;
+properties of the wiindow:
+i)closed: it holds a boolean value that reperesents whether the Window is closed or not.
+ii)crypto: it returns the browser crypto object.
+iii)document: it returns a reference to the document object of that Window.
+iv)length: it represents the number of frames in the current Window
+v)fullScreen: this property indicates whether the wiindow is displayed on fullScreen or not.
