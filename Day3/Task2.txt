@@ -1,0 +1,65 @@
+  Programs in arrow function
+
+2a Print odd numbers in an array
+
+oddNumbers = (array) => {
+    for(var i = 0; i<array.length; i++){
+        if(array[i]%2!=0){
+            console.log(array[i])
+        }
+    }
+}
+
+2b convert all the strings to title caps in a string array
+
+titleCase = (str) =>{
+    str = str.toLowerCase().split(' ');
+    for(var i = 0; i < str.length; i++){
+        str[i] = str[i].charAt(0).toUpperCase + str[i].slice(1);
+    }
+    return str.join(' ');
+}
+
+3b Sum of all numbers in an array
+
+sum = (array)=>{
+    var sum = 0;
+    for(var i = 0; i<array.length; i++){
+        sum = sum + array[i];
+    }
+    return sum;
+}
+
+4c Return all the prime numberss in an array
+
+primeNumber = (numArray) => {
+    numArray = numArray.filter((number) => {
+        for(var i = 2; i<=Math.sqrt(number); i++) {
+            if(number % i === 0) return false;
+        }
+        return true;
+    });
+    console.log(numArray);
+}
+
+5d  Return all the palindromes in an array
+
+function ispalindrome(N)
+{
+    let str = "" + N;
+    let len = str.length;
+    for(let i = 0; i < parseInt(len /2,10); i++)
+    {
+        if (str[i] != str[len - 1 -i])
+        return false;
+    }
+    return true;
+}
+palindromes = (arr,n) => {
+    for(let i=0;i<n;i++){
+        let ans = ispalindrome(arr[i]);
+        if(ans == false)
+        return false;
+    }
+    return true;
+}
