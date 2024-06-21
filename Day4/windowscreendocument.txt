@@ -1,0 +1,30 @@
+Window:
+  The JavaScript Window object sits at the top of the JavaScript object hierarchy and represents
+the browser Window. The window object is supported by all browsers. All global JavaScript object,
+functions, and variables automatically become members of the window object. The window is the first
+things that gets loaded into the browser. This window object has the majority of the properties like
+length, inner width, inner Height,name, if it has been closed, its parents and more.
+ The window object represents the current browsing context.it holds things like location,history,
+screen,window.status or the window.document. each browser tab has its own top-level window object.
+each of these windows gets its own separate  global object.
+
+Document:
+  The Document interface represents any web page loaded in the browser and serves as an entry point
+ into the web page's content, which is the DOM tree. when an HTML document is loaded into a web
+ browser, it becomes a document object. It is the root node of the HTML document. The document
+ actually gets loaded inside the window object and has properties available to it like title,URL,
+ cookie, etc. HTML documents, served with "text/html" content type, also implement the HTML
+ document interface, whereas XML and SVG documents implement the XML document interface.
+
+ Screen:
+  Screen is a small information object about physical screen dimensions. it can be used to display
+ screen width,height,colorDepth, pixelDepth etc. it is not mandatory to write window prefix with
+ screen object. it can be written without prefix.
+ 
+ properties:
+ screen.width
+ screen.height
+ screen.avawidth
+ screen.avaHeight
+ screen.colorDepth
+ screen.pixelDepth

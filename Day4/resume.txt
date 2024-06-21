@@ -1,0 +1,45 @@
+   Create your own resume data in JSON format
+
+Let resume={
+    "name":"Dharani",
+    "designation":"Programmer",
+    "email":"dharani@gmail.com",
+    "Phone":9876543210,
+    "location":[{
+        "address":"1/12 Krish nagar",
+        "pin code":627757,
+        "city":"chennai",
+    }],
+    "education":[{
+        "institution":"SASTRA University",
+        "department":"Computer Application",
+        "degree":"Bachelor",
+        "cgpa":8.64,
+        "Year":"2021-2024",
+
+        "Higher secondary":"new bharath higher secondary school",
+        "class":"12th",
+        "group":"Computer Science",
+        "Mark obtained":506,
+
+        "Matriculation":"new bharath higher secondary school",
+        "class":"10th",
+        "Mark obtained":435,
+    }]
+    "skills":[{
+        "name":"ui ux",
+        "level":"Master",
+        "Project":"Green closet",
+    }],
+    "languages":[{
+        "language":"English",
+        "fluency":"native speaker",
+
+         "language":"Hindhi",
+        "fluency":"intermediate",
+    }],
+    "intrest":[{
+        "name":"sports"
+        "sports":['cricket','shuttle','volley ball','badminton']
+    }]
+}

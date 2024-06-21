@@ -1,0 +1,82 @@
+here i can take few details of my own resume as a sample to iterate over all for loops
+
+var mydetails = [{
+    "name":"R Dharani",
+    "age":"21",
+    "Dob":"11/11/2003",
+    "degree":"BCA",
+    "Address":"tambaram,chennai",
+    "number":"+919876543210"
+}]
+for loop
+for (var i=0;i<mydetails.length;i++){
+    console.log(mydetails[i]);
+}
+
+var mydetails = {
+    "name":"R Dharani",
+    "age":"21",
+    "Dob":"11/11/2003",
+    "degree":"BCA",
+    "Address":"tambaram,chennai",
+    "number":"+919876543210"
+};
+for in loop
+for(vadr i in mydetails){
+    console.log(i,mydetails[i];)
+}
+
+for of loop
+const doorno=[10,11,22,45]
+for(var newdoorno of doorno){
+    console.log(newdoorno);
+}
+
+for each loop
+var doorno=[100,101,121,131,105]
+doorno.forEach(numbers=>{console.log(numbers)});
+
+Let resume={
+    "name":"Dharani",
+    "designation":"Programmer",
+    "email":"dharani@gmail.com",
+    "Phone":9876543210,
+    "location":[{
+        "address":"1/12 Krish nagar",
+        "pin code":627757,
+        "city":"chennai",
+    }],
+    "education":[{
+        "institution":"SASTRA University",
+        "department":"Computer Application",
+        "degree":"Bachelor",
+        "cgpa":8.64,
+        "Year":"2021-2024",
+
+        "Higher secondary":"new bharath higher secondary school",
+        "class":"12th",
+        "group":"Computer Science",
+        "Mark obtained":506,
+
+        "Matriculation":"new bharath higher secondary school",
+        "class":"10th",
+        "Mark obtained":435,
+    }],
+    "skills":[{
+        "name":"ui ux",
+        "level":"Master",
+        "Project":"Green closet",
+    }],
+    "languages":[{
+        "language":"English",
+        "fluency":"native speaker",
+
+         "language":"Hindhi",
+        "fluency":"intermediate",
+    }],
+    "intrest":[{
+        "name":"sports"
+        "sports":['cricket','shuttle','volley ball','badminton']
+    }]
+}
+console.log(resume);
