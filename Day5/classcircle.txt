@@ -1,0 +1,39 @@
+class circle{
+    constructor(radius,color){
+        this.radius = radius;
+        this.color = color;
+    }
+    get radiuscircle(){
+        return this.radius;
+    }
+    set radiuscircle(radius){
+        this.radius = radius;
+    }
+    get colorcircle(){
+        return this.color;
+    }
+    set colorcircle(color){
+        this.color = color;
+    }
+    get tostring(){
+        return `"circle[radius=${this.radius},colors=${this.color}]"`
+    }
+    get areacircle(){
+        return Math.PI * this.radius * this.radius;
+    }
+    get circumferencecircle(){
+        return 2 * Math.PI * this.radius;
+    }
+}
+var obj1 = new circle(1.0,"red");
+console.log(obj1.radiuscircle);
+obj1.radiuscircle = 2.2
+console.log(obj1.radiuscircle);
+
+console.log(obj1.colorcircle);
+obj1.colorcircle = "blue";
+console.log(obj1.colorcircle);
+
+console.log(obj1.tostring);
+console.log(obj1.areacircle);
+console.log(obj1.circumferencecircle);

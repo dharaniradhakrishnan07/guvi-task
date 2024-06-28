@@ -1,0 +1,39 @@
+class person{
+    constructor(firstname,lastname,dob,location)
+    {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.dob = dob;
+        this.location = location;
+    }
+}
+var person1 = new person("Dharani","radhakrishnan","11-09-2004","chennai");
+var person2 = new person("Thilak","raj","24-11-2003","palakkad");
+var person3 = new person("Vikraman","rajarajan","09-05-1998","thanjavur");
+var person4 = new person("mullai","ezhilan","18-09-2004","thiruvarur");
+var person5 = new person("raharnah","sherlin","24-01-2005","coimbatore");
+
+console.log(person1.firstname);
+console.log(person1.lastname);
+console.log(person1.dob);
+console.log(person1.location);
+
+console.log(person2.firstname);
+console.log(person2.lastname);
+console.log(person2.dob);
+console.log(person2.location);
+
+console.log(person3.firstname);
+console.log(person3.lastname);
+console.log(person3.dob);
+console.log(person3.location);
+
+console.log(person4.firstname);
+console.log(person4.lastname);
+console.log(person4.dob);
+console.log(person4.location);
+
+console.log(person5.firstname);
+console.log(person5.lastname);
+console.log(person5.dob);
+console.log(person5.location);

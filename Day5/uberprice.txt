@@ -1,0 +1,20 @@
+class uberprice{
+    constructor(){
+        this.basicfare = 60;
+        this.costperkilometer = 15;
+        this.costperminute = 2.5;
+        this.bookingfee = 30;
+    }
+    calculateprice(distanceinkm, timeinmins){
+        const distancecost = this.costperkilometer * distanceinkm;
+        const timecost = this.costperminute * timeinmins;
+        const overallprice = this.basicfare + distancecost + timecost + this.bookingfee;
+        return overallprice;
+    }
+}
+const calculator = new uberprice();
+const distanceinkm = 7.0;
+const timeinmins = 15;
+
+const estimatedINRprice = calculator.calculateprice(distanceinkm, timeinmins);
+console.log(`Estimated uber price in INR: ${estimatedINRprice}`);
