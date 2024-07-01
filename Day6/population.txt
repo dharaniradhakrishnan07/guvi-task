@@ -1,0 +1,12 @@
+var request = new XMLHttpRequest();
+request.open("Get","https://restcountries.com/v3.1/all","true");
+request.send();
+request.onload = function(){
+    var data = JSON.parse(this.response);
+    const populationlessthan2lakh = data.filter(
+        (country) => country.population < 200000
+    );
+    console.log(
+        "Countries with population less than 2 lakhs:",populationlessthan2lakh
+    );
+};

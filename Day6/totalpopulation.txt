@@ -1,0 +1,10 @@
+var request = new XMLHttpRequest();
+request.open("Get","https://restcountries.com/v3.1/all","true");
+request.send();
+request.onload = function(){
+    var countrydetails = JSON.parse(this.response);
+    const totalpopulation = countrydetails.reduce(
+        (accumulator,country) => accumulator + country.population,0
+    );
+    console.log("Total population:", totalpopulation);
+};

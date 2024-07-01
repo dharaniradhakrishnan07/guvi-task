@@ -1,0 +1,11 @@
+var request = new XMLHttpRequest();
+request.open("Get","https://restcountries.com/v3.1/all","true");
+request.send();
+request.onload = function(){
+    var countrydetails = JSON.parse(this.response);
+    countrydetails.foreach((country) =>{
+        console.log("country name:",country.name.common);
+        console.log("capital:",country.capital[0]);
+        console.log("Flag:",country.flags.png);
+    });
+};
