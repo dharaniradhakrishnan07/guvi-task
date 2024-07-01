@@ -1,6 +1,9 @@
-fetch("https://restcountries.com/v3.1/all")
-.then((response) => response.json())
-.then((data) => {
+var request = new XMLHttpRequest();
+request.open("Get","https://restcountries.com/v3.1/all","true");
+request.send();
+request.onload = function(){
+    var data = JSON.parse(this.response);
     const asiacountries = data.filter((country) => country.region ==="Asia");
+    return country.name;
     console.log("Asian Countries:", asiacountries);
 })
