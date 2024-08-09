@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 4rem;
+    overflow: hidden;
+    font-weight: 700;
+  }
+  
+  .display-count {
+    margin: 250px auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .counter {
+    padding: 2rem;
+  }
+  
+  .zoom {
+    animation: zoomInOut 2s ease-in-out forwards;
+  }
+  
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
+    .display-count {
+      margin: 100px auto;
+      font-size: 2.4rem;
+    }
+  }
