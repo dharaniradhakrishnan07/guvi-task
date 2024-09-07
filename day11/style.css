@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    transition: 0.3s;
+}
+body{
+    background-color: #2A2A2E;
+}
+.main{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #1F1627;
+    border-radius: 55px;
+    z-index: -3;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    letter-spacing: 2px;
+}
+.main::before{
+    content: '';
+    position: absolute;
+    inset: 70px;
+    border-radius: 35px;
+    border: 3px dotted white;
+    z-index: 100;
+}
+.container1{
+    padding-top: 120px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #E0D7D0;
+    margin-bottom: 50px;
+}
+.container1 h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.container1 h1 span{
+    font-family: 'Playfair Display', serif;
+    font-size: 150px;
+}
+.container1 p{
+    filter: drop-shadow(0 7px #ffffff1b);
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+.container{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.container .img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: skewY(-4deg);
+    z-index: 1;
+}
+.container.one{
+    padding: 40px 80px 80px 200px;
+}
+.container.one .img{
+    background: linear-gradient(90deg, rgb(255, 253, 209) 0%, rgba(255, 253, 209, 0.224) 100%); 
+    z-index: -1;
+} 
+.container.one .img img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transform: scaleY(4deg);
+}
+.container.one .box{
+    display: flex;
+    align-items: baseline;
+}
+.container.one h1,
+.container.two h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 150px;
+}
+.container.one span,
+.container.two span{
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+}
+.container.one h3,
+.container.two h3{
+    font-family: 'EB Garamond', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.container.one p,
+.container.two p{
+    width: 700px;
+    padding-top: 25px;
+    text-align: justify;
+}
+.container.two{
+    color: #F5ECE3;
+}
+.container.two{
+    padding: 105px 80px 80px 350px;
+}
+.container.two .img{
+    background: rgb(32,0,32);
+    background: radial-gradient(circle, rgba(32,0,32,1) 0%, rgba(48,0,48,1) 100%); 
+    z-index: -1;
+} 
+.container.two .img img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.container.two .box.twoLine{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.container.two .box.twoLine .boxFlex{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    justify-content: end;
+}
+.container.two .box.oneline{
+    display: flex;
+    gap: 10px;
+    align-items: last baseline;
+}
+.container.one .box.twoLine{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.container.one .box.twoLine .boxFlex{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: end;
+}
+#pad70{
+    padding-top: 70px;
+}
+#pad60{
+    padding-top: 60px;
+}
+@media (max-width:1200px){
+    .container1 h1{
+        font-size: 50px;
+    }
+    .container1 h1 span,
+    .container.one h1,
+    .container.two h1{
+        font-size: 120px;
+    }
+    .container1 p,
+    .container.one span,
+    .container.two span{
+        font-size: 36px;
+    }
+    .container.one{
+        padding: 40px 80px 80px 120px;
+    }
+    .container.two{
+        padding: 105px 80px 80px 250px;
+    }
+}
+@media (max-width:1100px){
+    .container.two{
+        padding: 105px 80px 80px 175px;
+    }
+    .container1{
+        height: 500px;
+    }
+}
+@media (max-width:992px){
+    .container1 h1{
+        font-size: 40px;
+    }
+    .container1{
+        padding-top: 50px;
+        height: 500px;
+        margin-bottom: 0px;
+    }
+    .container{
+        height: 450px;
+    }
+    .container.one p,
+    .container.two p{
+        width: auto;
+    }
+    .container.one,
+    .container.two{
+        padding: 50px 80px 80px 80px;
+    }
+}
+@media (max-width:768px){
+    .container1 h1{
+        font-size: 30px;
+    }
+    .container1 p{
+        font-size: 20px;
+    }
+    .container1{
+        padding-top: 80px;
+        height: 400px;
+    }
+    .container{
+        height: auto;
+    }
+    .container.one h1,
+    .container.two h1{
+        font-size: 80px;
+    }
+    .container.one span,
+    .container.two span{
+        font-size: 25px;
+    }
+    .container.one,
+    .container.two{
+        padding: 30px 80px 30px 80px;
+    }
+    #pad60{
+        height: 350px;
+        padding-top: 10px;
+    }
+    #pad60 p{
+        padding-top: 0;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+@media (max-width:700px){
+    .main::before{
+        inset: 50px;
+    }
+    .container1 h1{
+        font-size: 20px;
+    }
+    .container1{
+        height: 350px;
+    }
+    .container1 h1 span,
+    .container.one h1,
+    .container.two h1{
+        font-size: 70px;
+    }
+    .container.one span,
+    .container.two span{
+        font-size: 22px;
+    }
+    .container.one,
+    .container.two{
+        padding: 80px;
+    }
+    .container.one h3,
+    .container.two h3{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width:600px){
+    .container1 p{
+        font-size: 16px;
+    }
+    .container{
+        height: auto;
+    }
+    .container.one span,
+    .container.two span{
+        font-size: 16px;
+    }
+    .container.one,
+    .container.two{
+        padding: 30px 60px 40px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+@media (max-width:500px){
+    .main::before{
+        inset: 20px;
+    }
+    .container1 h1{
+        font-size: 16px;
+    }
+    .container1 h1 span,
+    .container.one h1,
+    .container.two h1{
+        font-size: 48px;
+    }
+    .container1 p{
+        letter-spacing: 2px;
+    }
+    .container1{
+        height: 300px;
+    }
+    .container.one span,
+    .container.two span,
+    .container.one h3,
+    .container.two h3{
+        font-size: 16px;
+    }
+}
