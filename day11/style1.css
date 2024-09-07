@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    list-style: none;
+    transition: 0.5s;
+}
+/*
+1B1C1D
+F2711C
+DB2828
+E0E1E2
+*/
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 35px;
+}
+a, button{
+    cursor: pointer;
+    text-decoration: none;
+}
+a:visited, a:link, a:active{
+    color: #fff;
+}
+body{
+    background-color: #1B1C1D;
+}
+nav{
+    height: 60px;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #1b1c1d50;
+    backdrop-filter: blur(5px);
+    z-index: 100;
+}
+header h1{
+    font-size: 36px;
+    font-weight: 400;
+}
+section{
+    padding-top: 30px;
+    background-color: #dfe6e9;
+    color: #212121;
+}
+section#about .container,
+section#achievements .poetry{
+    margin: 0 auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+section#about h2{
+    padding: 20px 0;
+    font-weight: 500;
+}
+p{
+    text-align: justify;
+}
+section#about .left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section#about .right{
+    display: grid;
+    place-content: center;
+}
+section#about .right .img{
+    margin-left: 100px;
+    width: 300px;
+    aspect-ratio: 1/1;
+}
+.img img{
+    width: 100%;
+    border-radius: 5px;
+    filter: hue-rotate(20deg) contrast(1);
+}
+.buttons{
+    padding: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.buttons a{
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: var(--clr);
+    transition: 0.5s;
+}
+.buttons a:hover{
+    letter-spacing: 2px;
+}
+.quote{
+    height: 100px;
+    display: grid;
+    place-content: center;
+    color: #dfe6e9;
+    font-size: 20px;
+    font-weight: 500;
+}
+#achievements h1{
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 20;
+}
+#achievements h1 span{
+    background-color: #dfe6e9;
+    padding: 0 10px;
+}
+#achievements h1::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    background-color: rgba(128, 128, 128, 0.551);
+    z-index: -1;
+}
+.gridBox{
+    display: grid;
+    padding: 60px 10px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.gridBox .box{
+    border: 1px solid rgba(128, 128, 128, 0.551);
+    padding: 20px;
+    border-radius: 5px;
+}
+.gridBox .box .title{
+    font-weight: 500;
+}
+.year{
+    padding-bottom: 5px;
+}
+.gridBox .box .year,
+.gridBox .box p{
+    font-size: 14px;
+    color: rgba(71, 68, 68, 0.943);
+    text-align: start;
+}
+.poetry{
+    column-gap: 50px;
+    row-gap: 25px;
+    grid-template-rows: auto 1fr;
+    padding-bottom: 80px !important;
+}
+.poetry h1{
+    margin-top: 20px !important;
+}
+.poetry ul li{
+    font-size: 14px;
+    list-style-type: disc;
+}
+footer{
+    color: #dfe6e9;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 0.7fr 1fr;
+}
+footer .box:nth-child(1),
+footer .box:nth-child(2){
+    border-right: 2px solid #dfe6e948;
+}
+footer .title{
+    font-size: 16px;
+    font-weight: 500;
+}
+footer .body{
+    font-size: 12px;
+    color: #dfe6e9a5;
+}
+@media (max-width:992px) {
+    .gridBox{
+        grid-template-columns: repeat(2,1fr);
+    }
+    section#about .container,
+    section#achievements .poetry{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+@media (max-width:768px) {
+    nav ul{
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 0px;
+    }
+    section#about .container,
+    section#achievements .poetry{
+        grid-template-columns: 1fr;
+    }
+    section#about .right{
+        grid-row: 1 / span 2;
+    }
+    section#about .right .img{
+        margin-left: 0px;
+    }
+    .poetry .first{
+        grid-row: 2 / span 2;
+    }
+}
+@media (max-width:600px) {
+    .gridBox{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        color: #dfe6e9;
+        padding: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    footer .box{
+        padding: 5px;
+    }
+    footer .box:nth-child(1),
+    footer .box:nth-child(2){
+        border-right: none;
+        border-bottom: 1px solid #dfe6e948;
+    }
+    .buttons{
+        padding: 20px;
+    }
+    #achievements h1{
+        margin-top: 0px;
+    }
+    .quote{
+        height: 75px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .gridBox{
+        padding: 30px 10px;
+    }
+    .poetry h1{
+        margin-top: 0px !important;
+    }
+}
+@media (max-width:500px) {
+    nav{
+        height: 50px;
+    }
+    section#about h2{
+        font-size: 20px;
+        padding: 0;
+    }
+    p{
+        font-size: 14px;
+    }
+    section#about .right .img{
+        width: 250px;
+    }
+}
+@media (max-width:400px) {
+    .buttons{
+        font-size: 14px;
+    }
+    .buttons a:hover{
+        letter-spacing: 0px;
+        box-shadow: 0 0 10px #212121;
+    }
+}
