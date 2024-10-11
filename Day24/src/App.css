@@ -1,0 +1,74 @@
+body {
+  font-family: 'dm sans', Sans-serif;
+}
+
+.nav-link {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  padding: 10px 24px !important;
+  line-height: 20px;
+}
+
+@media screen and (min-width:1024px) {
+
+  .nav-link:hover,
+  .nav-link:active,
+  .nav-link.active {
+    color: #0aaa01 !important;
+    border-bottom: 2px solid #0aaa01;
+  }
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link.active {
+  color: #0aaa01 !important;
+}
+
+.card {
+  font-family: 'dm sans', Sans-serif;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.46);
+}
+
+.card-img-top {
+  height: 200px !important;
+}
+
+.card-title {
+  color: #101010 !important;
+  font-size: 21px;
+}
+
+.card-text {
+  margin: 0;
+  margin-bottom: 6px;
+  line-height: 1.5em;
+  font-size: 14px;
+  color: #777;
+}
+
+.card-sm-txt {
+  color: #0aaa01;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.txt {
+  word-wrap: break-word;
+  font-size: 12px;
+  color: #adadad !important;
+  font-weight: 400;
+  word-spacing: 1px;
+}
