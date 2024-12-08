@@ -1,0 +1,1754 @@
+[
+
+    {
+
+        "users": "student",
+
+        "name": "Student 1",
+
+        "codekata": 15,
+
+        "attendance": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "status": "A"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "status": "A"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "status": "A"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "status": "A"
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "status": "A"
+
+            }
+
+        ],
+
+        "topic": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "topic": "JS"
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "topic": "CSS"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "topic": "HTML"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "topic": "REACT"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "topic": "JS"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "topic": "NODEJS"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "status": "SQL"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "topic": "MONGODB"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "topic": "AWS"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "topic": "DS"
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "topic": "AL"
+
+            }
+
+        ],
+
+        "task": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "task": true
+
+            }
+
+        ],
+
+        "placement_drives": [
+
+            {
+
+                "date": "2020-10-01",
+
+                "name": "zoho",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-10",
+
+                "name": "amazon",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "name": "flipkart",
+
+                "result": "Selected"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "name": "paypal",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "name": "IBM",
+
+                "result": "selected"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "name": "snapdeal",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "name": "power",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "name": "onesolution",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "name": "codingmart",
+
+                "result": "selected"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "name": "CTS",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-11-10",
+
+                "name": "infosys",
+
+                "result": "Not-selected"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "users": "student",
+
+        "name": "Student 2",
+
+        "codekata": 50,
+
+        "attendance": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "status": "P"
+
+            }
+
+        ],
+
+        "topic": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "topic": "JS"
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "topic": "CSS"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "topic": "HTML"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "topic": "REACT"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "topic": "JS"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "topic": "NODEJS"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "status": "SQL"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "topic": "MONGODB"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "topic": "AWS"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "topic": "DS"
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "topic": "AL"
+
+            }
+
+        ],
+
+        "task": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "task": true
+
+            }
+
+        ],
+
+        "placement_drives": [
+
+            {
+
+                "date": "2020-10-01",
+
+                "name": "zoho",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-10",
+
+                "name": "amazon",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "name": "flipkart",
+
+                "result": "Not-Selected"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "name": "paypal",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "name": "IBM",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "name": "snapdeal",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "name": "power",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "name": "onesolution",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "name": "codingmart",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "name": "CTS",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-11-10",
+
+                "name": "infosys",
+
+                "result": "Not-selected"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "users": "student",
+
+        "name": "Student 3",
+
+        "codekata": 150,
+
+        "attendance": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "status": "P"
+
+            }
+
+        ],
+
+        "topic": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "topic": "JS"
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "topic": "CSS"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "topic": "HTML"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "topic": "REACT"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "topic": "JS"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "topic": "NODEJS"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "status": "SQL"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "topic": "MONGODB"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "topic": "AWS"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "topic": "DS"
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "topic": "AL"
+
+            }
+
+        ],
+
+        "task": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "task": false
+
+            }
+
+        ],
+
+        "placement_drives": [
+
+            {
+
+                "date": "2020-10-01",
+
+                "name": "zoho",
+
+                "result": "selected"
+
+            },
+
+            {
+
+                "date": "2020-10-10",
+
+                "name": "amazon",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "name": "flipkart",
+
+                "result": "Selected"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "name": "paypal",
+
+                "result": "selected"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "name": "IBM",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "name": "snapdeal",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "name": "power",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "name": "onesolution",
+
+                "result": "selected"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "name": "codingmart",
+
+                "result": "selected"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "name": "CTS",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-11-10",
+
+                "name": "infosys",
+
+                "result": "selected"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "users": "student",
+
+        "name": "Student 4",
+
+        "codekata": 10,
+
+        "attendance": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "status": "P"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "status": "A"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "status": "A"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "status": "A"
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "status": "P"
+
+            }
+
+        ],
+
+        "topic": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "topic": "JS"
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "topic": "CSS"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "topic": "HTML"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "topic": "REACT"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "topic": "JS"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "topic": "NODEJS"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "status": "SQL"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "topic": "MONGODB"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "topic": "AWS"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "topic": "DS"
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "topic": "AL"
+
+            }
+
+        ],
+
+        "task": [
+
+            {
+
+                "date": "2020-10-15",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-16",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "task": false
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "task": true
+
+            },
+
+            {
+
+                "date": "2020-10-25",
+
+                "task": false
+
+            }
+
+        ],
+
+        "placement_drives": [
+
+            {
+
+                "date": "2020-10-01",
+
+                "name": "zoho",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-10",
+
+                "name": "amazon",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-17",
+
+                "name": "flipkart",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-18",
+
+                "name": "paypal",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-19",
+
+                "name": "IBM",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-20",
+
+                "name": "snapdeal",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-21",
+
+                "name": "power",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-22",
+
+                "name": "onesolution",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-23",
+
+                "name": "codingmart",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-10-24",
+
+                "name": "CTS",
+
+                "result": "Not-selected"
+
+            },
+
+            {
+
+                "date": "2020-11-10",
+
+                "name": "infosys",
+
+                "result": "Not-selected"
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "users": "mentor",
+
+        "name": "mentor 1",
+
+        "codekata": 200,
+
+        "skillset": ["PHP", "HTML", "JS", "REACT JS"],
+
+        "mentee_count": 30,
+
+        "feedback": [
+
+            {
+
+                "name": "Student 1",
+
+                "rating": 3
+
+            },
+
+            {
+
+                "name": "Student 2",
+
+                "rating": 5
+
+            },
+
+            {
+
+                "name": "Student 3",
+
+                "rating": 4
+
+            },
+
+            {
+
+                "name": "Student 4",
+
+                "rating": 3.5
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "users": "mentor",
+
+        "name": "mentor 2",
+
+        "codekata": 300,
+
+        "skillset": ["REACT JS", "HTML", "JS"],
+
+        "mentee_count": 10,
+
+        "feedback": [
+
+            {
+
+                "name": "Student 1",
+
+                "rating": 2
+
+            },
+
+            {
+
+                "name": "Student 2",
+
+                "rating": 3
+
+            },
+
+            {
+
+                "name": "Student 3",
+
+                "rating": 4.5
+
+            },
+
+            {
+
+                "name": "Student 4",
+
+                "rating": 2
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        "users": "mentor",
+
+        "name": "mentor 3",
+
+        "codekata": 350,
+
+        "skillset": ["REACT NATIVE", "HTML", "CSS"],
+
+        "mentee_count": 10,
+
+        "feedback": [
+
+            {
+
+                "name": "Student 1",
+
+                "rating": 5
+
+            },
+
+            {
+
+                "name": "Student 2",
+
+                "rating": 4
+
+            },
+
+            {
+
+                "name": "Student 3",
+
+                "rating": 5
+
+            },
+
+            {
+
+                "name": "Student 4",
+
+                "rating": 3
+
+            }
+
+        ]
+
+    }
+]
+
+		
