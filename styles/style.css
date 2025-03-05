@@ -1,0 +1,36 @@
+#text {
+  display:none;
+}
+
+body {
+  padding:0;
+  margin:0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size:15rem;
+}
+
+h1 {
+  background: rgb(36,185,51);
+  background: linear-gradient(129deg, rgba(36,185,51,1) 13%, rgba(215,237,227,1) 41%, rgba(215,245,242,1) 61%, rgba(229,185,62,1) 89%);
+  background-clip: text;
+  color: transparent;
+  font-size: 5rem;
+  animation: slidein 2s forwards;
+}
+
+@keyframes slidein {
+  from {
+      opacity:0;
+      transform: translatex(-100%);
+  }
+  to {
+      opacity:1;
+      transform: translateX(0);
+  }
+}
